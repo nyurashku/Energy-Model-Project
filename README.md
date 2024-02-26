@@ -31,3 +31,7 @@ Database (Loading) - Store data into a database such as MongoDB, MySQL, Postgres
 Model Development - Implement machine learning algorithms for energy consumption prediction, likely employing techniques such as gradient boosting (XgBoost).
 
 Validation - Test the model's accuracy and reliability against a subset of the data.
+
+# Step 1: Data Collection
+
+
