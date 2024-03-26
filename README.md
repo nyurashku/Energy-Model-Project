@@ -17,7 +17,7 @@ The project will involve two main components: building a data pipeline and creat
 The data pipeline will integrate data from several sources:
 
 1.	Weather forecasting and historical data: https://open-meteo.com/en/docs
-2.	US energy consumption by household: eia.gov
+2.	US energy consumption by household: [eia.gov](https://eia.gov)
 
 
 # Methodology:
@@ -32,6 +32,42 @@ Model Development - Implement machine learning algorithms for energy consumption
 
 Validation - Test the model's accuracy and reliability against a subset of the data.
 
+# Questions:
+
+1. Can the sales of energy be predicted using a machine learning model? If so, what model works best? Starting with the most popular, Regression analysis, we will try to predict sales.
+2. A popular machline learning algorithm used right now is the XGBoost model which stands for extreme gradient boosting. Although popular, it does tend to overfit data but will this still work for our needs?
+3. Lastly, a random forest model will be attempted to be used to predict sales.
+
 # Step 1: Data Collection
+
+Our team created two data pipelines included in the jupyter notebook. One is for EIA data and th e other one is for weather data.
+
+## Energy Data API
+![image](https://github.com/nyurashku/Energy-Model-Project/assets/119478875/7f5972bb-9788-4139-b1c5-cecffbef8a1f)
+
+## Weather Data API
+![image](https://github.com/nyurashku/Energy-Model-Project/assets/119478875/a4eea411-52b8-498a-b363-bec68937df3e)
+
+Once the data was collected and cleaned (the mundane act of cleaning the data was left in the jupyter notebook) the data was added to our MongoDB database:
+
+![image.png](attachment:image.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
